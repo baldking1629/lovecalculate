@@ -1,0 +1,18 @@
+﻿@model lovecalculate.Models.Root
+@{
+    ViewBag.Title = "About";
+}
+<main>
+    <div style="background-color:#f8a6ea">
+        <asp:Label style="font-size: 24px; color: #ae219a" runat="server" Text="İlk isim">@Model.firstname ve @Model.secondname </asp:Label>
+        <br />
+
+        <asp:Label style="font-size: 18px; color: #ae219a" runat="server" Text="İkinci isim">Oranınız: @Model.percentagematch</asp:Label>
+        <br />
+        <asp:Label style="font-size: 18px; color: #ae219a" runat="server">@Model.result</asp:Label>
+    </div>
+    
+
+
+    
+</main>
