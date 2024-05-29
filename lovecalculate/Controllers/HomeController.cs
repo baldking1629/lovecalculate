@@ -30,7 +30,6 @@ namespace lovecalculate.Controllers
             int firstlength = root.firstname.Length;
             string second = root.secondname.ToUpper();
             int secondlength = root.secondname.Length;
-            string result;
             int LoveCount = 0;
 
             for (int Count = 0; Count < firstlength; Count++)
